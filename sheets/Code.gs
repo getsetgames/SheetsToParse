@@ -5,11 +5,11 @@ var parseAppId = 'YOUR PARSE APP ID';
 var parseRestAPIKey = 'YOUR PARSE REST API KEY';
 
 // if reverseRows is true, the rows in the pattern array will be reversed
-var reverseRows = true;
+var reverseRows = false;
 
 // if convertValues is true, the value in each cell will be replaced with its corresponding value in the valueMap
 // if the sheet contains a value that isn't listed in the valueMap, it will be replaced with 'UNDEFINED'
-var convertValues = true;
+var convertValues = false;
 var valueMap = {
 	// 0: "Floor",
 	// 1: "Wall",
