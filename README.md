@@ -43,6 +43,10 @@ If a pattern with the same name already exists in Parse, it will be updated.
 
 This menu item publishes all Sheets in the Spreadsheet to Parse.
 
+Published patterns will appear in Parse like so:
+
+![resources/ParseScreenshot.png](resources/ParseScreenshot.png)
+
 ## Options
 
 [sheets/Code.gs](sheets/Code.gs) features a few options that you may find useful, all of which can be controlled by changing variables at the top of the script:
