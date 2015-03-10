@@ -70,8 +70,8 @@ function publishSheet(sheet) {
 			}
 		}
 
-		patternClass = patternClass.replace("-", "");
-		patternClass = patternClass.replace(" ", "");
+		patternClass = patternClass.replace(/-/g,'');
+		patternClass = patternClass.replace(/ /g,'');
 
 		var rowCount = values.length;
 		var colCount = 0;
