@@ -72,6 +72,7 @@ function publishSheet(sheet) {
 
 		patternClass = patternClass.replace(/-/g,'');
 		patternClass = patternClass.replace(/ /g,'');
+		patternClass = patternClass.replace(/\./g,'_');
 
 		var rowCount = values.length;
 		var colCount = 0;
