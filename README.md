@@ -14,7 +14,8 @@ This adds a function called *publishPattern* to your cloud code. The function wi
 
 #### 2.1 Add the Script
 
-Add the contents of [sheets/Code.gs](sheets/Code.gs) to your Google Sheet by selecting the *Tools > Script editor...* menu option.
+Add a script to your Google Sheet by selecting the *Tools > Script editor...* menu option. A new tab will open with the script editor, choose *Blank Project* from the template options.
+Add the contents of [sheets/Code.gs](sheets/Code.gs) to the empty file.
 
 #### 2.2 Fill in your Parse App Id and REST API Key
 
